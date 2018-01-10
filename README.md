@@ -1,5 +1,5 @@
-[![GoDoc](https://godoc.org/github.com/didip/tollbooth?status.svg)](http://godoc.org/github.com/didip/tollbooth)
-[![license](http://img.shields.io/badge/license-MIT-red.svg?style=flat)](https://raw.githubusercontent.com/didip/tollbooth/master/LICENSE)
+[![GoDoc](https://godoc.org/github.com/ilius/tollbooth?status.svg)](http://godoc.org/github.com/ilius/tollbooth)
+[![license](http://img.shields.io/badge/license-MIT-red.svg?style=flat)](https://raw.githubusercontent.com/ilius/tollbooth/master/LICENSE)
 
 ## Tollbooth
 
@@ -26,7 +26,7 @@ This is a generic middleware to rate-limit HTTP requests.
 package main
 
 import (
-    "github.com/didip/tollbooth"
+    "github.com/ilius/tollbooth"
     "net/http"
     "time"
 )
@@ -48,7 +48,7 @@ func main() {
     ```go
     import (
         "time"
-        "github.com/didip/tollbooth/limiter"
+        "github.com/ilius/tollbooth/limiter"
     )
 
     lmt := tollbooth.NewLimiter(1, nil)
@@ -140,25 +140,25 @@ func main() {
 
 Sometimes, other frameworks require a little bit of shim to use Tollbooth. These shims below are contributed by the community, so I make no promises on how well they work. The one I am familiar with are: Chi, Gin, and Negroni.
 
-* [Chi](https://github.com/didip/tollbooth_chi)
+* [Chi](https://github.com/ilius/tollbooth_chi)
 
-* [Echo](https://github.com/didip/tollbooth_echo)
+* [Echo](https://github.com/ilius/tollbooth_echo)
 
-* [FastHTTP](https://github.com/didip/tollbooth_fasthttp)
+* [FastHTTP](https://github.com/ilius/tollbooth_fasthttp)
 
-* [Gin](https://github.com/didip/tollbooth_gin)
+* [Gin](https://github.com/ilius/tollbooth_gin)
 
-* [GoRestful](https://github.com/didip/tollbooth_gorestful)
+* [GoRestful](https://github.com/ilius/tollbooth_gorestful)
 
-* [HTTPRouter](https://github.com/didip/tollbooth_httprouter)
+* [HTTPRouter](https://github.com/ilius/tollbooth_httprouter)
 
-* [Iris](https://github.com/didip/tollbooth_iris)
+* [Iris](https://github.com/ilius/tollbooth_iris)
 
-* [Negroni](https://github.com/didip/tollbooth_negroni)
+* [Negroni](https://github.com/ilius/tollbooth_negroni)
 
 
 ## My other Go libraries
 
-* [Stopwatch](https://github.com/didip/stopwatch): A small library to measure latency of things. Useful if you want to report latency data to Graphite.
+* [Stopwatch](https://github.com/ilius/stopwatch): A small library to measure latency of things. Useful if you want to report latency data to Graphite.
 
-* [Gomet](https://github.com/didip/gomet): Simple HTTP client & server long poll library for Go. Useful for receiving live updates without needing Websocket.
+* [Gomet](https://github.com/ilius/gomet): Simple HTTP client & server long poll library for Go. Useful for receiving live updates without needing Websocket.

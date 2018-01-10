@@ -6,8 +6,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/didip/tollbooth/libstring"
-	"github.com/didip/tollbooth/limiter"
+	"github.com/ilius/tollbooth/libstring"
+	"github.com/ilius/tollbooth/limiter"
 )
 
 // setResponseHeaders configures X-Rate-Limit-Limit and X-Rate-Limit-Duration
