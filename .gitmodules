@@ -1,0 +1,9 @@
+[submodule "vendor/github.com/patrickmn/go-cache"]
+	path = vendor/github.com/patrickmn/go-cache
+	url = https://github.com/patrickmn/go-cache
+[submodule "vendor/golang.org/x/net"]
+	path = vendor/golang.org/x/net
+	url = https://github.com/golang/net
+[submodule "vendor/golang.org/x/time"]
+	path = vendor/golang.org/x/time
+	url = https://github.com/golang/time
